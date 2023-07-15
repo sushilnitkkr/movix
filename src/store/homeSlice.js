@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const homeSlice = createSlice({
   name: 'homeS',
   initialState: {
-    url: {test:"test data coming by using redux"},
+    url: {},
     geners: {},
   },
   reducers: {

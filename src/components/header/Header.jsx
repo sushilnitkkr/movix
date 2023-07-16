@@ -59,7 +59,7 @@ const Header = () => {
             Tv Shows
           </li>
           <li className="menuItem">
-            <HiOutlineSearch />
+            <HiOutlineSearch onClick={openSearch}/>
           </li>
         </ul>
 
